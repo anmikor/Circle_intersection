@@ -48,7 +48,7 @@ def square_intersection(obj1: list, obj2: list, N: int):
 
 def degree_list(N: int):
     NN = []
-    for degree in list(range(0, 4)):
+    for degree in list(range(0, 5)):
         n = N * 10 ** degree
         NN.append(n)
     print(NN)
@@ -82,17 +82,3 @@ if __name__ == "__main__":
         print('Введите меньшее начальное число N - ограничение по времени работы программы')
     else:
         define_contact(circle1, circle2, N)
-
-
-
-
-
-
-# r1 = float(input('радиус 1-й окружности: '))
-# x1 = float(input('координата x 1-й окружности: '))
-# y1 = float(input('координата y 1-й окружности: '))
-# r2 = float(input('радиус 2-й окружности: '))
-# x2 = float(input('координата x 2-й окружности: '))
-# y2 = float(input('координата y 2-й окружности: '))
-
-# print(r1)
